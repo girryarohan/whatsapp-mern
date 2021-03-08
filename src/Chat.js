@@ -24,10 +24,13 @@ function Chat({ messages }) {
   return (
     <div className="chat">
       <div className="chat__header">
-        <Avatar className="chat__avatar" />
+        <Avatar
+          className="chat__avatar"
+          src="https://randomuser.me/api/portraits/women/26.jpg"
+        />
         <div className="chat__headerInfo">
-          <h3>Room Name</h3>
-          <p>Last Seen at ...</p>
+          <h3>Anita Infy</h3>
+          <p>Last Seen at 9.30 am</p>
         </div>
         <div className="chat__headerRight">
           <IconButton>
